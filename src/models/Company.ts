@@ -16,4 +16,7 @@ export default class Company {
 
   @Column({ default: false })
   following: boolean
+
+  @Column()
+  stories: string
 }
