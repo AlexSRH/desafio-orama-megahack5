@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsnd --inspect --transpile-only src/server.ts",
+    "startDatabase": "tsnd src/startupDatabase.ts",
     "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {

@@ -8,6 +8,7 @@
     "strict": true,
     "strictPropertyInitialization": false,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,

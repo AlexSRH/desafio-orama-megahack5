@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Fleury",
+    "about": "O Grupo Fleury é uma empresa de saúde brasileira fundada em 1926, cuja principal atividade é a prestação de serviços médicos e medicina diagnóstica.",
+    "logo": "fleury.png"
+  },
+  {
+    "name": "Itaúsa",
+    "about": "A Itaúsa foi constituída para centralizar as decisões financeiras e estratégicas de um conjunto de empresas, propiciando-lhes melhores condições de expansão.",
+    "logo": "itausa.png"
+  },
+  {
+    "name": "Petz",
+    "about": "Somos apaixonados por pets! Essa não é apenas uma expressão inserida em nossa missão como empresa, mas uma realidade vivenciada todos os dias.",
+    "logo": "petz.png"
+  },
+  {
+    "name": "Porto-Seguro",
+    "about": "Nossa missão é assumir riscos e prestar serviços, por meio de um atendimento familiar que supere expectativas.",
+    "logo": "porto-seguro.png"
+  },
+  {
+    "name": "ViaVarejo",
+    "about": "Somos comprometidos com resultados desafiadores nas diversas dimensões do negócio que contribuem para a perpetuidade da empresa Viavarejo.",
+    "logo": "via-varejo.png"
+  },
+  {
+    "name": "Banco do Brasil",
+    "about": "Nosso propósito é estar próximo das pessoas e ajudar a preservar o que é importante para nossos clientes, acionistas, funcionários e toda a sociedade.",
+    "logo": "banco-brasil.png"
+  },
+  {
+    "name": "Petobras",
+    "about": "Tendo como principal objetivo a exploração petrolífera no Brasil em prol da União.",
+    "logo": "petobras.png"
+  },
+  {
+    "name": "Natura",
+    "about": "Acreditamos no potencial das relações e no poder da cosmética como ampliadora de consciência.",
+    "logo": "natura.png"
+  },
+  {
+    "name": "EDP Brasil",
+    "about": "Detemos investimentos no setor de energia, ativos de geração, distribuição, transmissão e comercialização em 11 estados.",
+    "logo": "edp-brasil.png"
+  }
+]
