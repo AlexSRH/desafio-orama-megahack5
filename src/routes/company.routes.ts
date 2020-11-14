@@ -25,13 +25,13 @@ companyRouter.get('/:id', async (request, response) => {
 })
 
 companyRouter.post('/', async (request, response) => {
-  const { name, image, about } = request.body
+  const { name, logo, about } = request.body
 
   const companiesRepository = getRepository(Company)
 
   const company = companiesRepository.create({
     name,
-    image,
+    logo,
     about
   })
 

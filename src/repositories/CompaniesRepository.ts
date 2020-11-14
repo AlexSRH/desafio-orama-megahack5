@@ -1,6 +1,7 @@
 import { EntityRepository, Repository } from 'typeorm'
 
 import Company from '../models/Company'
+import AppError from '../errors/AppError'
 
 @EntityRepository(Company)
 export default class CompaniesRepository extends Repository<Company> {
@@ -8,7 +9,7 @@ export default class CompaniesRepository extends Repository<Company> {
     const company = await this.findOne(companyId)
 
     if (!company) {
-      throw new Error('Company does not exist')
+      throw new AppError('Company does not exist')
     }
 
     company.following = true
@@ -22,7 +23,7 @@ export default class CompaniesRepository extends Repository<Company> {
     const company = await this.findOne(companyId)
 
     if (!company) {
-      throw new Error('Company does not exist')
+      throw new AppError('Company does not exist')
     }
 
     company.following = false

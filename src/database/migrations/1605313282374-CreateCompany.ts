@@ -22,7 +22,7 @@ export class CreateCompany1605313282374 implements MigrationInterface {
             type: 'varchar'
           },
           {
-            name: 'image',
+            name: 'logo',
             type: 'varchar'
           },
           {

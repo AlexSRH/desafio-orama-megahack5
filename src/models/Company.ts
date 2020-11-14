@@ -12,7 +12,7 @@ export default class Company {
   about: string
 
   @Column()
-  image: string
+  logo: string
 
   @Column({ default: false })
   following: boolean
