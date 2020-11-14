@@ -51,7 +51,7 @@ companyRouter.post('/', upload.single('logo'), async (request, response) => {
   return response.json(companiesView.render(company))
 })
 
-companyRouter.post('/:id/follow', async (request, response) => {
+companyRouter.put('/:id/follow', async (request, response) => {
   const { id } = request.params
 
   const companiesRepository = getCustomRepository(CompaniesRepository)
@@ -61,7 +61,7 @@ companyRouter.post('/:id/follow', async (request, response) => {
   return response.json(companiesView.render(company))
 })
 
-companyRouter.post('/:id/unfollow', async (request, response) => {
+companyRouter.put('/:id/unfollow', async (request, response) => {
   const { id } = request.params
 
   const companiesRepository = getCustomRepository(CompaniesRepository)

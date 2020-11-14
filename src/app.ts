@@ -16,8 +16,8 @@ app.use(cors())
 app.use(express.json())
 app.use(morgan('dev'))
 
-app.use('/static', express.static(path.join(__dirname, '..', 'uploads')))
 app.use(routes)
+app.use('/static', express.static(path.join(__dirname, '..', 'uploads')))
 
 app.use(errorHandler)
 
