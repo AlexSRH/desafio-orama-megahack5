@@ -1,6 +1,4 @@
-# GoBarber
-
-## :construction: Área em construção :construction:
+# Backend - Desafio Órama
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/AlexSRH/desafio-orama-megahack5?color=%236A57D5">
